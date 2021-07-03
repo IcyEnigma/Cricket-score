@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import art
-art.tprint("Cricket")
+art.tprint("Cricket Scores")
 url = "https://www.espncricinfo.com/"
 req = requests.get(url)
 soup = BeautifulSoup(req.text,'html.parser')
